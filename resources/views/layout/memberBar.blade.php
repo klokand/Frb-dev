@@ -1,0 +1,1 @@
+<div>This is the Member Bar</div>
