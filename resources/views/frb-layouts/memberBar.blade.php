@@ -52,7 +52,6 @@
 										<button type="submit" class="btn btn-primary btn-primary-gray">
 											Login
 										</button>
-										
 									</div>
 								</div>
 							</form>

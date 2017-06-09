@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/',function(){
 	return view('web_home');
 });
+Route::get('/web_home',function(){
+	return view('web_home');
+});
 
 Auth::routes();
 

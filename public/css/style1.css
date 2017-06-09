@@ -54,21 +54,24 @@ body{
 .icon-padding{
 	padding-right:5px;
 }
-@media screen and (min-width:331px) and (max-width:339px){
-	.navbar-brand {
-	font-size:20px;
-    margin-top: 0px;	
-	}
-}
-@media screen and (max-width:331px){
+
+@media screen and (max-width:339px){
 	.navbar-brand {
 	font-size:19px;
 	margin-left: 0px!important;
     margin-top: 0px;
 	}
 }
+@media screen and (min-width: 340px) and (max-width:354px){
+	.navbar-brand {
+	font-size:23px;
+    margin-top: 0px;
+	margin-left: 0px!important;	
+	}
+}
 
-@media screen and (min-width: 340px) and (max-width:767px){
+
+@media screen and (min-width: 355px) and (max-width:767px){
 	.navbar-brand {
 	font-size:25px;
     margin-top: 0px;
@@ -315,11 +318,14 @@ body{
 	#overlayBox{
     width: 390px;
     opacity: 0.9;
-    position: absolute;
-    top: 350px;
+    position: relative;
+    top: -210px;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+	}
+	#mainArt{
+		margin-bottom:-225px;
 	}
 }
 
@@ -327,11 +333,14 @@ body{
 	#overlayBox{
     width: 390px;
     opacity: 0.9;
-    position: absolute;
-    top: 365px;
+    position: relative;
+    top: -160px;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+	}
+	#mainArt{
+		margin-bottom:-225px;
 	}
 }
 @media screen and (min-width: 500px) and (max-width:767px){
